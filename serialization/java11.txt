@@ -1,0 +1,3 @@
+<new class="java.lang.ProcessBuilder">
+<string>/usr/bin/gedit</string><method name ="start"/>
+</new>

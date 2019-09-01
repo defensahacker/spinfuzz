@@ -1,0 +1,1 @@
+$class.inspect("java.lang.Runtime").type.getRuntime().exec("sleep 5").waitFor()

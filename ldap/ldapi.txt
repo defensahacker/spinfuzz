@@ -1,0 +1,11 @@
+(objectclass=*)
+(mail=*)
+(mail=*@*)
+(cn=*a*i*)
+(|(name=*1)(name=*3)(name=*5)(name=*7)(name=*9))
+(&(employmentType=*)(!(employmentType=Hired))(!(employmentType=NEW))(!(employmentType=POS))(!(employmentType=REH)))
+(&(&(&(objectCategory=Computer)(operatingSystem=Windows 2000 Professional)(operatingSystemServicePack=Service Pack 4))))
+admin)(!(&(1=0
+*)(&
+)(&)(
+)(|)(

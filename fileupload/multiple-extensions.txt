@@ -1,0 +1,13 @@
+welcome.html.fr
+welcome.fr.html
+welcome.gif.html
+welcome.gif.html.gif
+welcome.html.en.de
+welcome.php.de
+welcome.php.de.php
+welcome.de.php
+world.imap.html
+world.html.imap
+foo.html.cgi
+foo.cgi.html
+## Do Add-Handler enumeration here:
